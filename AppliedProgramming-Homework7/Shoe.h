@@ -9,7 +9,8 @@ public:
 	int GetDeckSize() const;
 	void ShowCard() const;//確認用
 	int TakeCard();
+	Shoe();
 private:
 	int CardDeck[52];
-	int CardIndex = 0;
+	int CardIndex;
 };

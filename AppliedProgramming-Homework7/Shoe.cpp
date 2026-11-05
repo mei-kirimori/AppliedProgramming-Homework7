@@ -2,6 +2,12 @@
 #include <iostream>
 using namespace std;
 
+Shoe::Shoe()
+{
+	CardIndex = 0;
+	memset(CardDeck, 1, sizeof(CardDeck));
+}
+
 void Shoe::SetCardDeck() //下記ShuffleCardDeckとセットで初期化するための関数、こっちは一旦52枚のカードを配列に入れるだけ
 {
 	for (int i = 0; i < 52; i++)
