@@ -11,7 +11,6 @@ public:
 	CardValue GetCardValue()const;
 	CardSuit GetCardSuit()const;
 protected:
-	int CardIndex;
 	CardValue Card;
 	CardSuit Suit;
 
